@@ -1,0 +1,8 @@
+@import '@assets/scss/_variables.scss';
+
+.block {
+  @media ( max-width: $md3) {
+    display: flex;
+    overflow: auto;
+  }
+}

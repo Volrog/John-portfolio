@@ -1,0 +1,846 @@
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Header/index.module.scss ***!
+  \*******************************************************************************************************************************************************************/
+.Header__section--Jvv1j {
+  width: 100%;
+  margin-bottom: 50px;
+}
+@media (max-width: 470px) {
+  .Header__section--Jvv1j {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+  }
+}
+
+.Header__container--KpL2F {
+  max-width: 1044px;
+  margin: 0 auto;
+  padding: 0 6px;
+  position: relative;
+}
+@media (max-width: 470px) {
+  .Header__container--KpL2F {
+    max-width: none;
+    margin: 0 18px 0 18px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 470px) {
+  .Header__block--l81M9 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Header/Menu/index.module.scss ***!
+  \************************************************************************************************************************************************************************/
+.Menu__block--is5k0 {
+  padding-top: 27px;
+  text-align: right;
+}
+.Menu__block--is5k0 .active {
+  color: #FF6464;
+}
+@media (max-width: 470px) {
+  .Menu__block--is5k0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 470px) {
+  .Menu__open--JcqLs {
+    height: 100vh;
+  }
+}
+
+.Menu__item--Yp6eD {
+  color: #000;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  transition: color 0.1s ease;
+  margin: 0 0 0 30px;
+}
+.Menu__item--Yp6eD:hover {
+  color: #FF6464;
+}
+@media (max-width: 470px) {
+  .Menu__item--Yp6eD {
+    display: block;
+    font-size: 40px;
+    margin: 0;
+  }
+}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Header/MenuBurger/index.module.scss ***!
+  \******************************************************************************************************************************************************************************/
+.MenuBurger__block--IBYxE {
+  display: none;
+  margin: 20px 0 20px auto;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  line-height: 0;
+  cursor: pointer;
+}
+@media (max-width: 470px) {
+  .MenuBurger__block--IBYxE {
+    display: block;
+  }
+}
+.MenuBurger__block--IBYxE.MenuBurger__active--_zfLP::before {
+  transform: rotate(45deg);
+  top: 9px;
+}
+.MenuBurger__block--IBYxE::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #21243D;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.MenuBurger__block--IBYxE.MenuBurger__active--_zfLP::after {
+  transform: rotate(-45deg);
+  bottom: 9px;
+}
+.MenuBurger__block--IBYxE::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #21243D;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.MenuBurger__midLine--aOn4d {
+  width: 100%;
+  height: 2px;
+  text-align: center;
+  background-color: #21243D;
+  position: absolute;
+  top: 50%;
+  transition: opacity 0.3s ease;
+}
+.MenuBurger__midLine--aOn4d.MenuBurger__active--_zfLP {
+  opacity: 0;
+}
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Footer/index.module.scss ***!
+  \*******************************************************************************************************************************************************************/
+.Footer__section--OzV2i {
+  height: 182px;
+}
+
+.Footer__container--BDe2p {
+  max-width: 1032px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Footer__icons--bjNxP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.Footer__iconsItem--V62pQ {
+  margin-left: 35px;
+}
+.Footer__iconsItem--V62pQ:first-child {
+  margin: 0;
+}
+
+.Footer__copyright--GpLKQ {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+/*!**********************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/scss/main.scss ***!
+  \**********************************************************************************************************************************************/
+@font-face {
+  font-family: "Heebo";
+  font-weight: 400;
+  src: url(assets/fonts/Heebo-Regular..ttf);
+}
+@font-face {
+  font-family: "Heebo";
+  font-weight: 500;
+  src: url(assets/fonts/Heebo-Medium..ttf);
+}
+@font-face {
+  font-family: "Heebo";
+  font-weight: 700;
+  src: url(assets/fonts/Heebo-Bold..ttf);
+}
+@font-face {
+  font-family: "Heebo";
+  font-weight: 900;
+  src: url(assets/fonts/Heebo-Black..ttf);
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243D;
+}
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Home-page/Resume/index.module.scss ***!
+  \*****************************************************************************************************************************************************************************/
+.Resume__section--UFbNC {
+  padding-top: 39px;
+  margin-bottom: 70px;
+}
+@media (max-width: 470px) {
+  .Resume__section--UFbNC {
+    padding-top: 80px;
+    margin-bottom: 55px;
+  }
+}
+
+.Resume__container--w24Mz {
+  max-width: 868px;
+  margin: 0 auto;
+  padding: 0 6px;
+}
+@media (max-width: 470px) {
+  .Resume__container--w24Mz {
+    max-width: none;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Home-page/Button/index.module.scss ***!
+  \*****************************************************************************************************************************************************************************/
+.Button__text--eEH40 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.Button__block--ZJfj9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 208px;
+  height: 47px;
+  background-color: #FF6464;
+  border: 2px solid #FF6464;
+  border-radius: 2px;
+  transition: color 0.2s linear, background 0.2s linear;
+}
+@media (min-width: 470px) {
+  .Button__block--ZJfj9:hover {
+    background-color: #fff;
+    color: #FF6464;
+  }
+  .Button__block--ZJfj9:active {
+    border-color: aqua;
+  }
+}
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Home-page/Resume-card/index.module.scss ***!
+  \**********************************************************************************************************************************************************************************/
+.Resume-card__block--fNB6R {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+@media (max-width: 470px) {
+  .Resume-card__block--fNB6R {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+
+.Resume-card__avatar--VXWSt {
+  border-radius: 50%;
+  box-shadow: -5px 13px 0px 0px #EDF7FA;
+}
+@media (max-width: 470px) {
+  .Resume-card__avatar--VXWSt {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 34px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Home-page/Resume-card/Card-info.module.scss ***!
+  \**************************************************************************************************************************************************************************************/
+.Resume-card__content--YW_fl {
+  max-width: 506px;
+}
+@media (max-width: 470px) {
+  .Resume-card__content--YW_fl {
+    min-width: none;
+    text-align: center;
+  }
+}
+
+.Resume-card__title--cXocE {
+  max-width: 446px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+@media (max-width: 470px) {
+  .Resume-card__title--cXocE {
+    min-width: none;
+    font-size: 32px;
+    margin-bottom: 21px;
+  }
+}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Home-page/Posts/index.module.scss ***!
+  \****************************************************************************************************************************************************************************/
+.Posts__section--cohQ9 {
+  background-color: #EDF7FA;
+}
+
+.Posts__container--oo2b1 {
+  max-width: 868px;
+  margin: 0 auto;
+  padding: 0 6px 35px 6px;
+}
+@media (max-width: 470px) {
+  .Posts__container--oo2b1 {
+    max-width: none;
+    padding: 0 10px 35px 10px;
+  }
+}
+
+.Posts__head--xm2dc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 27px;
+  margin-bottom: 20px;
+}
+@media (max-width: 470px) {
+  .Posts__head--xm2dc {
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+
+.Posts__title--ywt1X {
+  font-size: 22px;
+  font-weight: 400;
+}
+@media (max-width: 470px) {
+  .Posts__title--ywt1X {
+    font-size: 18px;
+  }
+}
+
+.Posts__link--N5OVI {
+  color: #00A8CC;
+  transition: color 0.1s ease;
+}
+.Posts__link--N5OVI:hover {
+  color: #FF6464;
+}
+@media (max-width: 470px) {
+  .Posts__link--N5OVI {
+    display: none;
+  }
+}
+/*!***************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Home-page/Feed/index.module.scss ***!
+  \***************************************************************************************************************************************************************************/
+.Feed__block--SrqPC {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 470px) {
+  .Feed__block--SrqPC {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Home-page/Message/index.module.scss ***!
+  \******************************************************************************************************************************************************************************/
+.Message__block--GR7jM {
+  width: 418px;
+  height: 100%;
+  padding-bottom: 35px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+@media (min-width: 470px) {
+  .Message__block--GR7jM:hover {
+    transform: scale(0.95, 0.95);
+  }
+}
+@media (max-width: 470px) {
+  .Message__block--GR7jM {
+    width: 354px;
+    padding-bottom: 20px;
+    margin-bottom: 17px;
+  }
+  .Message__block--GR7jM:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.Message__link--eDKfR {
+  color: #21243D;
+}
+
+.Message__container--ShWdh {
+  max-width: 368px;
+  margin: 0 auto;
+}
+@media (max-width: 470px) {
+  .Message__container--ShWdh {
+    max-width: 315px;
+  }
+}
+
+.Message__title--XBMoE {
+  padding-top: 24px;
+  height: 109px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 17px;
+}
+@media (max-width: 470px) {
+  .Message__title--XBMoE {
+    padding-top: 12px;
+    height: 72px;
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+}
+
+.Message__info--ToZlQ {
+  display: flex;
+  margin-bottom: 11px;
+}
+@media (max-width: 470px) {
+  .Message__info--ToZlQ {
+    margin-bottom: 19px;
+  }
+}
+.Message__info--ToZlQ li {
+  font-size: 18px;
+  margin-left: 27px;
+}
+@media (max-width: 470px) {
+  .Message__info--ToZlQ li {
+    font-size: 16px;
+  }
+}
+.Message__info--ToZlQ li:first-child {
+  margin: 0;
+}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Home-page/Works/index.module.scss ***!
+  \****************************************************************************************************************************************************************************/
+.Works__section--T9AUF {
+  margin-bottom: 83px;
+}
+@media (max-width: 470px) {
+  .Works__section--T9AUF {
+    margin-bottom: 50px;
+  }
+}
+
+.Works__container--pirS5 {
+  max-width: 868px;
+  margin: 0 auto;
+  padding: 0 6px;
+}
+@media (max-width: 470px) {
+  .Works__container--pirS5 {
+    min-width: none;
+    padding: 0 15px;
+  }
+}
+
+.Works__title--B2u0e {
+  padding-top: 35px;
+  font-size: 22px;
+  font-weight: 400;
+}
+@media (max-width: 470px) {
+  .Works__title--B2u0e {
+    padding-top: 26px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+/*!***********************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Works-list/index.module.scss ***!
+  \***********************************************************************************************************************************************************************/
+@media (max-width: 470px) {
+  .Works-list__block--olfDa {
+    display: flex;
+    overflow: auto;
+  }
+}
+/*!***********************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Works-item/index.module.scss ***!
+  \***********************************************************************************************************************************************************************/
+.Works-item__block--zH8HF {
+  padding: 30px 0;
+  border-bottom: 1px solid #E0E0E0;
+}
+@media (min-width: 470px) {
+  .Works-item__block--zH8HF {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 470px) {
+  .Works-item__block--zH8HF {
+    padding: 26px 0 21px 0;
+    flex: 0 0 90%;
+    margin-right: 15px;
+  }
+}
+
+.Works-item__img--He8Xy {
+  border-radius: 6px;
+}
+@media (max-width: 470px) {
+  .Works-item__img--He8Xy {
+    width: 100%;
+    margin-bottom: 22px;
+  }
+}
+
+.Works-item__content--ef7KQ {
+  margin-left: 18px;
+}
+@media (max-width: 470px) {
+  .Works-item__content--ef7KQ {
+    margin-left: 0;
+  }
+}
+
+.Works-item__title--CdKVD {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+@media (max-width: 470px) {
+  .Works-item__title--CdKVD {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+.Works-item__info--qZWbD {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.Works-item__dateBlock--tA37P {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 25px;
+  background-color: #142850;
+  border-radius: 16px;
+}
+
+.Works-item__dateText--TGsEW {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+}
+@media (max-width: 470px) {
+  .Works-item__dateText--TGsEW {
+    font-size: 16px;
+  }
+}
+
+.Works-item__topicBlock--qt4eE {
+  margin-left: 26px;
+}
+@media (max-width: 470px) {
+  .Works-item__topicBlock--qt4eE {
+    margin-left: 22px;
+  }
+}
+
+.Works-item__topicText--jaNAK {
+  font-size: 20px;
+  color: #8695A4;
+}
+@media (max-width: 470px) {
+  .Works-item__topicText--jaNAK {
+    font-size: 16px;
+  }
+}
+/*!***********************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Works-page/index.module.scss ***!
+  \***********************************************************************************************************************************************************************/
+.Works-page__container--HryuD {
+  max-width: 681px;
+  margin: 0 auto;
+  padding: 0 6px;
+}
+@media (max-width: 470px) {
+  .Works-page__container--HryuD {
+    padding: 60px 0 0 0;
+    max-width: none;
+    margin: 0 0 0 15px;
+  }
+}
+
+.Works-page__title--A2VJn {
+  font-size: 44px;
+  font-weight: 700;
+}
+@media (max-width: 470px) {
+  .Works-page__title--A2VJn {
+    font-size: 30px;
+  }
+}
+
+.Works-page__head--OkjiB {
+  margin-bottom: 20px;
+}
+@media (max-width: 470px) {
+  .Works-page__head--OkjiB {
+    margin: 0;
+  }
+}
+/*!**********************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Blog-page/index.module.scss ***!
+  \**********************************************************************************************************************************************************************/
+.Blog-page__container--O99k6 {
+  max-width: 681px;
+  margin: 0 auto;
+  padding: 0 6px;
+}
+@media (max-width: 470px) {
+  .Blog-page__container--O99k6 {
+    max-width: none;
+    padding: 60px 0 0 0;
+    margin: 0 15px;
+  }
+}
+
+.Blog-page__title--twRAS {
+  font-size: 44px;
+  font-weight: 700;
+}
+@media (max-width: 470px) {
+  .Blog-page__title--twRAS {
+    font-size: 30px;
+  }
+}
+
+.Blog-page__head--_F9iy {
+  margin-bottom: 25px;
+}
+@media (max-width: 470px) {
+  .Blog-page__head--_F9iy {
+    margin: 0;
+  }
+}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Blog-page/Message/index.module.scss ***!
+  \******************************************************************************************************************************************************************************/
+.Message__block--wUE1F {
+  padding: 30px 0;
+  border-bottom: 1px solid #E0E0E0;
+  transition: transform 0.3s ease;
+}
+@media (min-width: 470px) {
+  .Message__block--wUE1F:hover {
+    transform: translate(-15px, -15px);
+  }
+}
+
+.Message__link--STSW9 {
+  color: #21243D;
+}
+
+.Message__title--o7J96 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 17px;
+}
+@media (max-width: 470px) {
+  .Message__title--o7J96 {
+    font-size: 26px;
+  }
+}
+
+.Message__info--RPEU0 {
+  display: flex;
+  margin-bottom: 15px;
+}
+.Message__info--RPEU0 li {
+  font-size: 20px;
+  margin-left: 27px;
+}
+@media (max-width: 470px) {
+  .Message__info--RPEU0 li {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+}
+.Message__info--RPEU0 li:first-child {
+  margin: 0;
+}
+
+.Message__keywords--EuZuA {
+  color: #8695A4;
+}
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/SelectedPost/index.module.scss ***!
+  \*************************************************************************************************************************************************************************/
+.SelectedPost__container--VFub9 {
+  max-width: 681px;
+  margin: 0 auto;
+  padding: 0 6px;
+}
+@media (max-width: 470px) {
+  .SelectedPost__container--VFub9 {
+    max-width: none;
+    padding: 60px 0 0 0;
+    margin: 0 15px;
+  }
+}
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Contact-page/index.module.scss ***!
+  \*************************************************************************************************************************************************************************/
+.Contact-page__section--OLSYJ {
+  background-color: #EDF7FA;
+}
+@media (max-width: 470px) {
+  .Contact-page__section--OLSYJ {
+    padding-top: 60px;
+  }
+}
+
+.Contact-page__container--A7ynb {
+  max-width: 681px;
+  margin: 0 auto;
+  padding: 0 6px;
+}
+@media (max-width: 470px) {
+  .Contact-page__container--A7ynb {
+    max-width: none;
+    margin: 0 15px;
+    padding: 0;
+  }
+}
+
+.Contact-page__title--zYVev {
+  font-size: 44px;
+  font-weight: 700;
+}
+@media (max-width: 470px) {
+  .Contact-page__title--zYVev {
+    font-size: 30px;
+  }
+}
+
+.Contact-page__head--Apue1 {
+  margin-bottom: 55px;
+}
+
+@media (max-width: 470px) {
+  .Contact-page__content--Wa2G4 {
+    text-align: center;
+  }
+}
+
+.Contact-page__link--voQxQ {
+  font-size: 24px;
+  color: #21243D;
+  transition: color 0.2s ease;
+}
+.Contact-page__link--voQxQ:hover {
+  color: #FF6464;
+}
+/*!***********************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../node_modules/sass-loader/dist/cjs.js!./assets/components/Error-page/index.module.scss ***!
+  \***********************************************************************************************************************************************************************/
+.Error-page__container--BTdJC {
+  max-width: 681px;
+  margin: 0 auto;
+  padding: 0 6px;
+}
+@media (max-width: 470px) {
+  .Error-page__container--BTdJC {
+    padding: 60px 0 0 0;
+    margin: 0 15px;
+    max-width: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map*/

@@ -1,0 +1,33 @@
+@import '@assets/scss/_variables.scss';
+@import '@assets/scss/_mixins.scss';
+
+.section {
+  height: $heightFooter;
+}
+
+.container {
+  max-width: $maxWidthHeaderContainer + px;
+  margin: 0 auto;
+  height: 100%;
+  @include flex-center-center;
+  flex-direction: column;
+}
+
+.icons {
+  @include flex-center-center;
+  margin-bottom: 26px;
+
+  &Item {
+    margin-left: 35px;
+
+    &:first-child {
+      margin: 0;
+    }
+  }
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}

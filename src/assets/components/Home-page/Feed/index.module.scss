@@ -1,0 +1,10 @@
+@import '@assets/scss/_variables.scss';
+@import '@assets/scss/_mixins.scss';
+
+.block {
+  @include flex-between-center;
+  @media ( max-width: $md3 ) {
+    justify-content: center;
+    flex-direction: column;
+  }
+}

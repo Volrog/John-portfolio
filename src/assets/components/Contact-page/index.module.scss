@@ -1,0 +1,47 @@
+@import '@assets/scss/_variables.scss';
+
+.section {
+  background-color: #EDF7FA;
+  @media( max-width: $md3 ) {
+    padding-top: 60px;
+  }
+}
+
+.container {
+  max-width: $maxWidthDefaultContainer + px;
+  margin: 0 auto; 
+  padding: 0 6px;
+  @media( max-width: $md3 ) {
+    max-width: none;
+    margin: 0 15px;
+    padding: 0;
+  }
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+  @media( max-width: $md3 ) {
+    font-size: 30px;
+  }
+}
+
+.head {
+  margin-bottom: 55px;
+}
+
+.content {
+  @media( max-width: $md3 ) {
+    text-align: center;
+  }
+}
+
+.link {
+  font-size: 24px;
+  color: #21243D;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #FF6464;
+  }
+}

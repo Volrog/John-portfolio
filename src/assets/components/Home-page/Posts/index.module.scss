@@ -1,0 +1,47 @@
+@import '@assets/scss/_variables.scss';
+@import '@assets/scss/_mixins.scss';
+
+.section {
+  background-color: #EDF7FA;
+}
+
+.container {
+  max-width: $maxWidthHomeContainer + 12 + px;
+  margin: 0 auto; 
+  padding: 0 6px 35px 6px;
+  @media ( max-width: $md3 ) {
+   max-width: none;
+   padding: 0 10px 35px 10px;
+  }
+}
+
+.head {
+  @include flex-between-center;
+  padding-top: 27px;
+  margin-bottom: 20px;
+  @media ( max-width: $md3 ) {
+   justify-content: center;
+   padding-top: 20px;
+  }
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 400;
+  @media ( max-width: $md3 ) {
+   font-size: 18px;
+  }
+}
+
+.link {
+  color: #00A8CC;
+  transition: color 0.1s ease;
+
+  &:hover {
+    color: #FF6464;
+  }
+
+  @media ( max-width: $md3 ) {
+   display: none;
+  }
+}

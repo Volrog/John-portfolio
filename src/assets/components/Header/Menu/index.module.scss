@@ -1,0 +1,43 @@
+@import '@assets/scss/_variables.scss';
+@import '@assets/scss/_mixins.scss';
+
+.block {
+  padding-top: 27px;
+  text-align: right;
+  :global .active {
+    color: #FF6464;
+  }
+
+  @media ( max-width: $md3 ) {
+    @include flex-column-around-center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    padding-top: 0;
+  }
+}
+
+.open {
+  @media ( max-width: $md3 ) {
+    height: 100vh;
+  }
+}
+
+.item {
+  color: #000;
+  font-family: $fontFamily--default;
+  font-weight: 500;
+  font-size: 20px;
+  transition: color 0.1s ease;
+  margin: 0 0 0 30px;
+  
+  &:hover {
+    color: #FF6464;
+  }
+
+  @media ( max-width: $md3 ) {
+    display: block;
+    font-size: 40px;
+    margin: 0;
+  }
+}

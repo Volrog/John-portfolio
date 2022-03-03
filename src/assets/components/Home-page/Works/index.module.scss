@@ -1,0 +1,29 @@
+@import '@assets/scss/_variables.scss';
+
+.section {
+  margin-bottom: 83px;
+  @media ( max-width: $md3) {
+    margin-bottom: 50px;
+  }
+}
+
+.container {
+  max-width: $maxWidthHomeContainer + 12 + px;
+  margin: 0 auto; 
+  padding: 0 6px;
+  @media ( max-width: $md3) {
+    min-width: none;
+    padding: 0 15px;
+  }
+}
+
+.title {
+  padding-top: 35px;
+  font-size: 22px;
+  font-weight: 400;
+  @media ( max-width: $md3) {
+    padding-top: 26px;
+    font-size: 18px;
+    text-align: center;
+  }
+}

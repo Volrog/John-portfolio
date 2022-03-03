@@ -1,0 +1,26 @@
+{
+  "name": "Posts",
+  "messages": [
+    {
+      "id": "db5def8d5ae94fe4b0570c1c1dd8a8e1",
+      "title": "Making a design system from scratch",
+      "date": "12 Feb 2020",
+      "keywords": "Design, Pattern",
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": "be89729d8cb247a3a793ed382331085d",
+      "title": "Creating pixel perfect icons in Figma",
+      "date": "12 Feb 2020",
+      "keywords": "Figma, Icon Design",
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": "076c54309f374c8186f9366478bfe7ad",
+      "title": "UI Interactions of the week",
+      "date": "12 Feb 2019",
+      "keywords": "Express, Handlebars",
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+$fontFamily--default: 'Heebo', sans-serif;
+
+$minWidth: 320px;
+$maxWidth: 1152;
+
+$maxWidthHeaderContainer: $maxWidth - 60 * 2;
+$maxWidthHomeContainer: 856;
+$maxWidthDefaultContainer: 681;
+
+$md1: $maxWidthHomeContainer + 12;
+$md2: 530px;
+$md3: 470px;
+
+$maxWidthContent: 506;
+$widthFeedMessages: 418px;
+$widthFeedMessagesScreen: 354px;
+
+$heightFooter: 182px;

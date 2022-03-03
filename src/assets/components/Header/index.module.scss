@@ -1,0 +1,35 @@
+@import '@assets/scss/_variables.scss';
+
+.section {
+  width: 100%;
+  margin-bottom: 50px;
+  @media ( max-width: $md3 ) {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba( 255, 255, 255, 0.9 );
+    z-index: 1; 
+    margin-bottom: 0;
+    padding-bottom: 60px;
+  }
+}
+
+.container {
+  max-width: $maxWidthHeaderContainer + 12 + px;
+  margin: 0 auto;
+  padding: 0 6px;
+  position: relative;
+
+  @media ( max-width: $md3 ) {
+    max-width: none;
+    margin: 0 18px 0 18px;
+    padding: 0;
+  }
+}
+
+.block {
+  @media ( max-width: $md3 ) {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

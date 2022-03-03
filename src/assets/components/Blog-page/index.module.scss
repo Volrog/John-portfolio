@@ -1,0 +1,27 @@
+@import '@assets/scss/_variables.scss';
+
+.container {
+  max-width: $maxWidthDefaultContainer + px;
+  margin: 0 auto; 
+  padding: 0 6px;
+  @media( max-width: $md3 ) {
+    max-width: none;
+    padding: 60px 0 0 0;
+    margin: 0 15px;
+  }
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+  @media( max-width: $md3 ) {
+    font-size: 30px;
+  }
+}
+
+.head {
+  margin-bottom: 25px;
+  @media( max-width: $md3 ) {
+    margin: 0;
+  }
+}

@@ -1,0 +1,22 @@
+@import '@assets/scss/_variables.scss';
+
+.content {
+  max-width: $maxWidthContent + px;
+  @media ( max-width: $md3 ) {
+    min-width: none;
+    text-align: center;
+  }
+}
+
+.title {
+  max-width: $maxWidthContent - 60 + px;
+  font-family: $fontFamily--default;
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 40px;
+  @media ( max-width: $md3 ) {
+    min-width: none;
+    font-size: 32px;
+    margin-bottom: 21px;
+  }
+}

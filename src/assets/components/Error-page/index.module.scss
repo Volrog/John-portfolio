@@ -1,0 +1,12 @@
+@import '@assets/scss/_variables.scss';
+
+.container {
+  max-width: $maxWidthDefaultContainer + px;
+  margin: 0 auto; 
+  padding: 0 6px;
+  @media( max-width: $md3 ) {
+    padding: 60px 0 0 0;
+    margin: 0 15px;
+    max-width: none;
+  }
+}

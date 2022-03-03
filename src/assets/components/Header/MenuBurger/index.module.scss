@@ -1,0 +1,61 @@
+@import '@assets/scss/_variables.scss';
+
+.block {
+  display: none;
+  margin: 20px 0 20px auto;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  line-height: 0;
+  cursor: pointer;
+  @media ( max-width: $md3 ) {
+    display: block;
+  }
+
+  &.active::before {
+    transform: rotate( 45deg );
+    top: 9px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #21243D;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+
+  &.active::after {
+    transform: rotate( -45deg );
+    bottom: 9px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #21243D;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  
+}
+
+.midLine {
+  width: 100%;
+  height: 2px;
+  text-align: center;
+  background-color: #21243D;
+  position: absolute;
+  top: 50%;
+  transition: opacity 0.3s ease;
+
+  &.active {
+    opacity: 0;
+  }
+}

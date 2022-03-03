@@ -1,0 +1,31 @@
+@import '@assets/scss/_variables.scss';
+@import '@assets/scss/_mixins.scss';
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.block {
+  @include flex-center-center;
+
+  width: 208px;
+  height: 47px;    
+  background-color: #FF6464;
+  border: 2px solid #FF6464;
+  border-radius: 2px;
+  transition: color 0.2s linear, background 0.2s linear;
+
+  @media ( min-width: $md3 ) {
+    &:hover {
+      background-color: #fff;
+      color: #FF6464;
+    }
+
+    // Доработать отклик по клику
+    &:active {
+      border-color: aqua;
+    }
+}
+}

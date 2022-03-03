@@ -1,0 +1,22 @@
+@import '@assets/scss/_variables.scss';
+@import '@assets/scss/_mixins.scss';
+
+.section {
+  padding-top: 39px;
+  margin-bottom: 70px;
+  @media ( max-width: $md3 ) {
+    padding-top: 30 + 50 + px;
+    margin-bottom: 55px;
+  }
+}
+
+.container {
+  max-width: $maxWidthHomeContainer + 12 + px;
+  margin: 0 auto;
+  padding: 0 6px;
+  @media ( max-width: $md3 ) {
+    max-width: none;
+    padding: 0 10px;
+    @include flex-column-center-center;
+  }
+}
