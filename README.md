@@ -10,6 +10,6 @@ npm install --save normalize.css @babel/polyfill react react-dom react-router-do
 ```
 ___
 ### Project build commands:
-  - npm run dev - development mode builder. The build result is in the build folder
-  - npm run build - production mode builder. The build result is in the build folder
-  - npm run start - webpack dev server start command. After launch, the project is available at url-address: http://localhost:4200/
+  - `npm run dev` - development mode builder. The build result is in the build folder
+  - `npm run build` - production mode builder. The build result is in the build folder
+  - `npm run start` - webpack dev server start command. After launch, the project is available at url-address: http://localhost:4200/
