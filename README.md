@@ -3,7 +3,6 @@ This is learning react project
 
 The project is posted on the [link](http://volrog.beget.tech/).
 ___
----
 Before building the project, install the dependencies.
 Installation Commands:
 ```
