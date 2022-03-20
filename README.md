@@ -1,13 +1,8 @@
 # John-portfolio
 This is learning react project. The project is posted on the [link](http://volrog.beget.tech/). Before building the project, install the dependencies.
 ___
-### Installation Commands:
-```
-npm install --save-dev webpack webpack-cli html-webpack-plugin clean-webpack-plugin css-loader style-loader webpack-dev-server copy-webpack-plugin mini-css-extract-plugin cross-env css-minimizer-webpack-plugin sass sass-loader babel-loader @babel/core @babel/preset-env @babel/preset-react
-```
-```
-npm install --save normalize.css @babel/polyfill react react-dom react-router-dom prop-types
-```
+### Setting:
+Before building the project, install the dependencies: `npm install`
 ___
 ### Project build commands:
   - `npm run dev` - development mode builder. The build result is in the build folder
