@@ -2,7 +2,7 @@
 This is learning react project. The project is posted on the [link](http://volrog.beget.tech/). Before building the project, install the dependencies.
 ___
 ### Setting:
-Before building the project, install the dependencies: `npm install`
+Before building the project, install the dependencies: `npm ci`
 ___
 ### Project build commands:
   - `npm run dev` - development mode builder. The build result is in the build folder
